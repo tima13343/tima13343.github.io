@@ -1,0 +1,16 @@
+.sign_form {
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    margin-left: -165px; 
+    margin-top: -65px;
+    color: white;
+    background-color: black;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.body {
+    background-color: black;
+}

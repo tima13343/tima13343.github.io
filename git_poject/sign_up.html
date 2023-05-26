@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GYM-Brain</title>
+    <link rel="stylesheet" href="sign_up_style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#debc6d">
+
+    <div class="page"> 
+        <div class="courses" id="courses">Courses</div>
+        <div class="sign_up">Sign up</div>
+        <div class="about_us">About us</div>
+        <div class="contacts">Contacts</div>
+    </div>
+    <div class="GYM_Brain">GYM-Brain</div>
+
+
+    <div class="sign_form">
+    <form class="form">
+        <label>
+            Ваше имя:
+            <input type="text" name="name" placeholder="Имя" required pattern="[А-Яа-яЁё]{3,20}">
+            <p></p>
+        </label>
+        <label>
+            Ваша фамилия:
+            <input type="text" name="surname" placeholder="Фамилия" required pattern="[А-Яа-яЁё]{3,20}">
+            <p></p>
+        </label>
+        <label>
+            Номер телефона:
+            <input type="text" name="phone" placeholder="7хххххххххх" required pattern="[0-9]{10}">
+            <p></p>
+        </label>
+        <label>
+            Адрес электронной почты:
+            <input type="text" name="email">
+            <p></p>
+        </label>
+        <label>
+            Выберите интересующий вас курс:
+            <select name="course">
+                <option value="s1">Python</option>
+                <option value="s2">Java Script</option>
+                <option value="s3">C/C++</option>
+            </select>
+            <p></p>
+        </label>
+        
+        <input type="submit" value="Регистрация">
+        <input type="reset"  value="Очистить">
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
